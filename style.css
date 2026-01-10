@@ -1,0 +1,99 @@
+*{
+    right margin: 72.5px;
+    left margin:72.5px;
+    padding:0px;
+    box sizing:border-box;
+}
+header{
+    background-color: white;
+    padding: 16px 120px 16px 120px;
+}
+div {
+     margin: 0px auto;
+    display: flex ;
+    justify-content: space-between;
+}
+ul{
+
+    color: black;
+    align-items: center;
+    display:flex;
+        list-style-type: none;
+    gap: 32px;
+    font-size:medium;}
+
+#btn{
+    background-color: forestgreen;
+    border: none;
+    padding: 12px 16px;
+    font-size: medium;
+    color: white;
+    
+}
+ul :hover{
+    background-color:orangered;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#sos{
+    color: white;
+}
+button :hover{
+    background-color:red;
+
+}
+.world{
+height: 1363px;
+    background:url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 140px
+     295px;
+    text-align: center;
+    font-size: xx-large;
+    color: white
+    }
+    .ros{
+         width: 690px;
+        text-align: center;
+        font-size:21px;
+        text-transform: inherit;
+
+    }
+    #fan{
+        color:forestgreen;
+    }
+#do{
+ padding: 12px 16px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+  
+}
+
+#od{
+    padding: 12px 16px;
+    background: none;
+    color: white;
+border-color: white;
+}
+button :hover{
+    background-color: aquamarine;
+}
+#go{
+    text-align: center;
+    font-size: medium;
+    padding: 5px 8px;
+    border-radius:20px;
+    
+}
+button :hover{
+    background-color: aqua;
+}
+
+
+        
+    
