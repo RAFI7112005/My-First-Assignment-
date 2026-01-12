@@ -1,8 +1,8 @@
-*{
-    right margin: 72.5px;
-    left margin:72.5px;
-    padding:0px;
-    box sizing:border-box;
+
+.font-inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 header{
     background-color: white;
@@ -28,8 +28,11 @@ ul{
     padding: 12px 16px;
     font-size: medium;
     color: white;
-    
 }
+#button-color{
+    color: white;
+}
+
 ul :hover{
     background-color:orangered;
     
@@ -38,14 +41,12 @@ a{
     text-decoration: none;
     color: black;
 }
-#sos{
-    color: white;
-}
+
 button :hover{
     background-color:red;
 
 }
-.world{
+.background-picture{
 height: 1363px;
     background:url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -56,40 +57,50 @@ height: 1363px;
     font-size: xx-large;
     color: white
     }
-    .ros{
-         width: 690px;
+    .image-text{
+         width: 640px;
         text-align: center;
-        font-size:21px;
+        font-size:17px;
         text-transform: inherit;
 
     }
-    #fan{
+    #second-text{
         color:forestgreen;
     }
-#do{
+    
+#socond-button{
  padding: 12px 16px;
     background-color: forestgreen;
-    color: white;
+    color:white;
     border: none;
   
 }
 
-#od{
+#third-button{
     padding: 12px 16px;
     background: none;
-    color: white;
+    color:white;
 border-color: white;
 }
+.color-change {
+    color: white;
+}
+    
+
 button :hover{
     background-color: aquamarine;
 }
-#go{
+#top-text{
     text-align: center;
     font-size: medium;
     padding: 5px 8px;
     border-radius:20px;
     
+     }
+#top-text-work {
+    color: forestgreen;
 }
+
 button :hover{
     background-color: aqua;
 }
