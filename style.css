@@ -47,7 +47,7 @@ button :hover{
 
 }
 .background-picture{
-height: 1363px;
+height: 480px;
     background:url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -95,16 +95,102 @@ button :hover{
     font-size: medium;
     padding: 5px 8px;
     border-radius:20px;
-    
-     }
+ }
 #top-text-work {
     color: forestgreen;
 }
 
 button :hover{
-    background-color: aqua;
+    background-color:orangered;
+}
+#head-tag{
+
+    text-align: center;
+    font-size: 48px;
+}
+#second-part{
+    font-size: 16px;
+    font-weight:lighter;
+   }
+
+.card{
+    width: 300px;
+    padding:20px;
+text-align: center;
+align-items: center;
+    border-radius:8px;
+    height:300px;
+    border: none;
+    background-color: white;
+
+
+    
+
+ }
+
+.card img{
+    background-color: brown;
+    border-radius: 50%;
+    margin:39.5px;
+    padding: 18.9px;
+    
+}
+.uto{
+    background-color:whitesmoke;
+
+
+    
+}
+.card-container{
+    display: flex;
+    gap:25px;
+
+    }
+.card-container :hover{
+    background-color:aquamarine;
+}
+
+#rop{
+    padding:120px;
+justify-content: center;
+    }
+
+.hoj{
+    font-size:20px;
+}
+
+.bop{
+    display: flex;
+
+}
+#uot{
+    color: forestgreen;
+font-size: medium;
+margin-top:35px;
+}
+#xox{
+    font-size:48px;
+    font-weight:700;
+    margin-top:16px;
+}
+#gop{
+    font-size:16px;
+
+    width:300px;
+    margin-top:5px;
+    
+}
+#hoh{
+    margin-top: 40px;
+}
+.fof{
+    margin: 60px;
+}
+#hoh :hover{
+    background-color:sandybrown;
 }
 
 
-        
-    
+
+
+
