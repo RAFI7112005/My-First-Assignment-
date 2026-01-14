@@ -190,7 +190,34 @@ margin-top:35px;
     background-color:sandybrown;
 }
 
+.dod{
+  
+    text-align: center;
+    padding:120px 120px;
+    background-color:whitesmoke;
+    margin-top:12px;
+}
+#opo{
+    margin-top:5px;
+    padding: 12px 16px;
+    background-color: forestgreen;
 
+}
+#opo :hover{
+    background-color: orangered;
+}
+
+#ccc{
+    color:white;
+}
+.yyy{
+    padding:120px;
+}
+.jjj{
+text-align: center;
+    width:500px;
+  
+}
 
 
 
