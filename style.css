@@ -209,11 +209,13 @@ color: #627382;
 }
 
 .Early-Access-Section-title{
-  
+ 
     text-align: center;
     padding:120px 120px;
     background-color:whitesmoke;
     margin-top:12px;
+    border-radius:8px;
+
 }
 
 #second-part-font-colour{
@@ -239,6 +241,7 @@ color: #627382;
 .Early-Access-Section{
 
     padding:120px;
+   
 }
 
 .footer-container{
