@@ -47,11 +47,13 @@ button :hover{
 
 }
 .background-picture{
-height: 480px;
+
+height:480px;
     background:url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 140px
+    background-image:cover;
+    background-position:center;
+    padding:140px
      295px;
     text-align: center;
     font-size: xx-large;
@@ -73,7 +75,7 @@ height: 480px;
     background-color: forestgreen;
     color:white;
     border: none;
-  
+  border-radius:5px;
 }
 
 #third-button{
@@ -81,6 +83,7 @@ height: 480px;
     background: none;
     color:white;
 border-color: white;
+border-radius:5px ;
 }
 .color-change {
     color: white;
@@ -111,6 +114,7 @@ button :hover{
 #second-part{
     font-size: 16px;
     font-weight:lighter;
+    color: #627382;
    }
 
 .card{
@@ -120,7 +124,7 @@ text-align: center;
 align-items: center;
     border-radius:8px;
     height:300px;
-    border: none;
+    border:8px;
     background-color: white;
 
 
@@ -135,12 +139,16 @@ align-items: center;
     padding: 18.9px;
     
 }
-.uto{
+.cards-background{
     background-color:whitesmoke;
+padding-top:24px ;
+    }
+   
+.card-font-colour{
+    color: #627382;
+}  
 
 
-    
-}
 .card-container{
     display: flex;
     gap:25px;
@@ -150,101 +158,114 @@ align-items: center;
     background-color:aquamarine;
 }
 
-#rop{
+.Second-Brain-Section{
     padding:120px;
-justify-content: center;
+width: 1360px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
     }
 
-.hoj{
+.text-items-accordingly{
     font-size:20px;
+ 
 }
 
-.bop{
+.Second-Brain-Section-display{
     display: flex;
 
 }
-#uot{
+#title-font-colour{
     color: forestgreen;
 font-size: medium;
 margin-top:35px;
 }
-#xox{
+#Second-Brain-Section-display-second-title{
     font-size:48px;
     font-weight:700;
     margin-top:16px;
 }
-#gop{
+#gap{
+
     font-size:16px;
 
     width:300px;
     margin-top:5px;
     
 }
-#hoh{
+#check-circle-part{
     margin-top: 40px;
 }
-.fof{
+.Second-Brain-Section-display-title{
     margin: 60px;
 }
-#hoh :hover{
+
+#thin-text{
+color: #627382;
+
+}
+#check-circle-part :hover{
     background-color:sandybrown;
 }
 
-.dod{
+.Early-Access-Section-title{
   
     text-align: center;
     padding:120px 120px;
     background-color:whitesmoke;
     margin-top:12px;
 }
-#opo{
+
+#second-part-font-colour{
+color: #627382;
+
+}
+#fourth-part-font-colour{
+    color: #627382;
+}
+#Early-Access-Section-button{
     margin-top:5px;
     padding: 12px 16px;
     background-color: forestgreen;
 
 }
-#opo :hover{
+#Early-Access-Section-button :hover{
     background-color: orangered;
 }
 
-#ccc{
+#Early-Access-Section-button-text{
     color:white;
 }
-.yyy{
+.Early-Access-Section{
+
     padding:120px;
 }
-.jjj{
-text-align: center;
-    width:500px;
-  
-}
-.lll{
+
+.footer-container{
   background: var(--Style, rgba(0, 25, 49, 1));
   height: 348px;
  padding:120px 120px 30px 120px;
 
  }
- #footer-img{
+ #footer-text{
     color: white;
 font-size:20px;
 
  }
- .pol{
+ .footer-logos{
     background-color:white;
     border-radius: 50%;
     padding:1px;
   margin: 5px;
 
    }
-.hole{
+.footer-section{
  text-align: right;
 } 
-#zzz{
+
+#footer-last-part{
 text-align: center;
 color: white;
-}
-.eee{
-align-items:end;
 }
 
 
